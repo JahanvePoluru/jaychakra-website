@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay Chakra Infra Properties LLP | Builders in Tirupati &amp; Bengaluru</title>
+  <meta name="description" content="Jay Chakra Infra Properties LLP — residential, commercial and villa construction in Tirupati and Bengaluru, built with quality, transparency and trust." />
+  <link rel="icon" type="image/png" href="images/logo-mark.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loader" id="loader">
+    <img class="loader-mark" src="images/logo-mark.png" alt="" />
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="brand">
+      <img class="brand-mark" src="images/logo-mark.png" alt="Jay Chakra logo" />
+      <span class="brand-text">Jay Chakra<small>Infra Properties LLP</small></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#contact" class="btn btn-gold btn-sm">Enquire Now</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <section class="hero" id="home">
+    <canvas id="city3d" aria-hidden="true"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow reveal">Tirupati · Bengaluru</p>
+      <h1 class="reveal">Building <em>Landmarks.</em><br />Building <em>Trust.</em></h1>
+      <p class="hero-sub reveal">Jay Chakra Infra Properties LLP crafts homes, commercial spaces and infrastructure that stand the test of time — engineered with precision, delivered with integrity.</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-gold">Explore Our Projects</a>
+        <a href="#contact" class="btn btn-ghost">Book a Site Visit</a>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span>Scroll</div>
+  </section>
+
+  <!-- Update these numbers with real figures -->
+  <section class="stats">
+    <div class="stat"><strong data-count="25" data-suffix="+">0</strong><span>Projects Delivered</span></div>
+    <div class="stat"><strong data-count="15" data-suffix="+">0</strong><span>Years of Experience</span></div>
+    <div class="stat"><strong data-count="500" data-suffix="+">0</strong><span>Happy Families</span></div>
+    <div class="stat"><strong data-count="2">0</strong><span>Cities · Tirupati &amp; Bengaluru</span></div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="about-visual reveal">
+      <div class="cube-scene">
+        <div class="cube">
+          <div class="face f1"></div><div class="face f2"></div><div class="face f3"></div>
+          <div class="face f4"></div><div class="face f5"></div><div class="face f6"></div>
+        </div>
+      </div>
+      <div class="about-badge"><strong>100%</strong><span>Legal &amp; transparent<br />documentation</span></div>
+    </div>
+    <div class="about-text">
+      <p class="eyebrow reveal">About Us</p>
+      <h2 class="reveal">A legacy built brick by brick.</h2>
+      <p class="reveal">Founded on the belief that every structure should outlive its builder, <strong>Jay Chakra Infra Properties LLP</strong> brings years of on-ground construction experience to every project across <strong>Tirupati</strong> and <strong>Bengaluru</strong>. From apartments to independent villas and commercial buildings, we deliver quality you can see and strength you can trust.</p>
+      <ul class="checks reveal">
+        <li>Premium materials &amp; certified engineering</li>
+        <li>Committed, transparent timelines</li>
+        <li>Clear titles &amp; approved layouts</li>
+        <li>Personal attention from the founder</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects section" id="projects">
+    <div class="section-head">
+      <p class="eyebrow reveal">Our Portfolio</p>
+      <h2 class="reveal">Projects that define skylines.</h2>
+    </div>
+    <div class="filters reveal" id="filters">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="Residential">Residential</button>
+      <button data-filter="Commercial">Commercial</button>
+      <button data-filter="Villas">Villas</button>
+      <button data-filter="Ongoing">Ongoing</button>
+    </div>
+    <div class="grid" id="projectGrid"></div>
+  </section>
+
+  <section class="services section" id="services">
+    <div class="section-head">
+      <p class="eyebrow reveal">What We Do</p>
+      <h2 class="reveal">End-to-end construction excellence.</h2>
+    </div>
+    <div class="service-grid">
+      <article class="service tilt reveal"><div class="icon">🏢</div><h3>Residential Apartments</h3><p>Thoughtfully planned apartment buildings with modern amenities.</p></article>
+      <article class="service tilt reveal"><div class="icon">🏡</div><h3>Independent Villas</h3><p>Custom-designed homes built to your vision.</p></article>
+      <article class="service tilt reveal"><div class="icon">🏬</div><h3>Commercial Spaces</h3><p>Hotels, offices and showrooms engineered for business.</p></article>
+      <article class="service tilt reveal"><div class="icon">🛣️</div><h3>Infrastructure</h3><p>Roads, layouts and civil works delivered at scale.</p></article>
+      <article class="service tilt reveal"><div class="icon">📐</div><h3>Design &amp; Planning</h3><p>Architecture, approvals and structural design support.</p></article>
+      <article class="service tilt reveal"><div class="icon">🔑</div><h3>Turnkey Projects</h3><p>From land to keys — one partner, zero hassle.</p></article>
+    </div>
+  </section>
+
+  <section class="process section" id="process">
+    <div class="section-head">
+      <p class="eyebrow reveal">How We Work</p>
+      <h2 class="reveal">From blueprint to handover.</h2>
+    </div>
+    <ol class="timeline">
+      <li class="reveal"><span>01</span><h4>Consultation</h4><p>Understanding your needs, budget and location.</p></li>
+      <li class="reveal"><span>02</span><h4>Design &amp; Approvals</h4><p>Plans, 3D visuals and all legal permissions.</p></li>
+      <li class="reveal"><span>03</span><h4>Construction</h4><p>Quality-checked execution with regular updates.</p></li>
+      <li class="reveal"><span>04</span><h4>Handover</h4><p>Smooth delivery with complete documentation.</p></li>
+    </ol>
+  </section>
+
+  <section class="quote section">
+    <blockquote class="reveal">
+      “We don't just construct buildings — we build the places where families grow and businesses thrive.”
+      <cite>— Founder, Jay Chakra Infra Properties LLP</cite>
+    </blockquote>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="contact-info">
+      <p class="eyebrow reveal">Get In Touch</p>
+      <h2 class="reveal">Let's build something remarkable.</h2>
+      <p class="reveal">Serving <strong>Tirupati</strong> and <strong>Bengaluru</strong>. Visit our office or send us a message — we'll get back to you soon.</p>
+      <ul class="info-list reveal">
+        <li><span>📍</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Kota+Elson+Towers+Old+Tiruchanoor+Road+Tirupati+517501" target="_blank" rel="noopener">501, Kota Elson Towers, Old Tiruchanoor Road, Tirupati – 517501</a></li>
+        <li><span>📞</span> <a href="tel:+917032121512">+91 70321 21512</a></li>
+        <li><span>✉️</span> <a href="mailto:pcpnaidu7@gmail.com">pcpnaidu7@gmail.com</a></li>
+        <li><span>🏙️</span> Tirupati · Bengaluru</li>
+      </ul>
+    </div>
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="row">
+        <label>Name<input name="name" required placeholder="Your full name" /></label>
+        <label>Phone<input name="phone" type="tel" required pattern="[0-9+\s\-]{10,15}" placeholder="+91 98765 43210" /></label>
+      </div>
+      <label>Email<input name="email" type="email" placeholder="you@example.com" /></label>
+      <div class="row">
+        <label>Interested In
+          <select name="interest">
+            <option>Buying a Flat</option>
+            <option>Villa Construction</option>
+            <option>Commercial Space</option>
+            <option>Joint Venture / Land</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>City
+          <select name="city">
+            <option>Tirupati</option>
+            <option>Bengaluru</option>
+          </select>
+        </label>
+      </div>
+      <label>Message<textarea name="message" rows="4" placeholder="Tell us about your requirement"></textarea></label>
+      <button type="submit" class="btn btn-gold full">Send Enquiry on WhatsApp</button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="brand"><img class="brand-mark" src="images/logo-mark.png" alt="Jay Chakra logo" /><span class="brand-text">Jay Chakra<small>Infra Properties LLP</small></span></div>
+    <p>Tirupati · Bengaluru &nbsp;|&nbsp; <a href="tel:+917032121512">+91 70321 21512</a></p>
+    <p>© <span id="year"></span> Jay Chakra Infra Properties LLP. All rights reserved.</p>
+  </footer>
+
+  <a class="whatsapp" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.5L3 29l6.7-1.7c1.9 1 4.1 1.6 6.3 1.6 7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.7c-2 0-3.9-.5-5.6-1.5l-.4-.2-4 1 1.1-3.9-.3-.4C5.8 20 5.3 18 5.3 16 5.3 10.1 10.1 5.3 16 5.3S26.7 10.1 26.7 16 21.9 26.7 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.9 5.2 2.9 1.2 3.5.9 4.1.9.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <img id="modalImg" alt="" />
+      <div class="modal-body">
+        <span class="tag" id="modalTag"></span>
+        <h3 id="modalTitle"></h3>
+        <p class="meta" id="modalMeta"></p>
+        <p id="modalDesc"></p>
+        <a href="#contact" class="btn btn-gold" id="modalCta">Enquire About This Project</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="config.js"></script>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
