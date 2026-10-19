@@ -1,15 +1,30 @@
-﻿# Jay Chakra Infra Properties LLP – Website
+# Jay Chakra Infra Properties LLP – Website
 
-## Preview
-Double-click `index.html` to open the site in a browser.
+Live site: https://jahanvepoluru.github.io/jaychakra-website/
+
+## Preview locally
+```
+python -m http.server 8000
+```
+Then open http://localhost:8000 (or just double-click `index.html`).
 
 ## Update content
-- **Projects:** In `projects.js`, replace the sample entries. Put photos in `images\` and set `image: "images/photo.jpg"`.
-- **WhatsApp number:** In `config.js`, set the number with the country code and digits only, e.g. `919876543210`.
-- **Contact details & stats:** Edit in `index.html` (search for `7032121512`, `pcpnaidu7@gmail.com`, and `data-count`).
+- **Projects:** In `projects.js`. Put photos in `images\` and set `image: "images/photo.jpg"`.
+- **WhatsApp number:** In `config.js` (country code + number, digits only).
+- **Contact details & stats:** In `index.html` (search for `7032121512`, `pcpnaidu7@gmail.com`, and `data-count`).
 
-## Go live
-1. Register the domain, for example `jaychakrainfra.com` or `.in`, with GoDaddy, Hostinger, Namecheap, or Cloudflare.
-2. Create a free account on Netlify (https://app.netlify.com/drop) and drag the `site` folder in.
-3. In Netlify, open **Domain settings → Add custom domain** and follow its DNS instructions at your domain registrar.
-4. HTTPS is enabled automatically.
+## Publish changes
+```
+git add -A
+git commit -m "Describe the change"
+git push
+```
+GitHub Pages redeploys automatically in about 1 minute.
+
+## Custom domain
+1. Buy the domain (e.g. from GoDaddy, Hostinger or Cloudflare).
+2. At the domain provider, add DNS records:
+   - `A` record, host `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+   - `CNAME` record, host `www` → `jahanvepoluru.github.io`
+3. In GitHub: **repo → Settings → Pages → Custom domain**, enter the domain and save.
+4. After DNS is verified, tick **Enforce HTTPS**.
