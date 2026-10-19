@@ -1,6 +1,6 @@
 # Jay Chakra Infra Properties LLP – Website
 
-Live site: https://jahanvepoluru.github.io/jaychakra-website/
+Live site: https://jaychakrainfra.github.io/
 
 ## Preview locally
 ```
@@ -25,6 +25,6 @@ GitHub Pages redeploys automatically in about 1 minute.
 1. Buy the domain (e.g. from GoDaddy, Hostinger or Cloudflare).
 2. At the domain provider, add DNS records:
    - `A` record, host `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `CNAME` record, host `www` → `jahanvepoluru.github.io`
+   - `CNAME` record, host `www` → `jaychakrainfra.github.io`
 3. In GitHub: **repo → Settings → Pages → Custom domain**, enter the domain and save.
 4. After DNS is verified, tick **Enforce HTTPS**.
